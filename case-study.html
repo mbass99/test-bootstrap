@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Case Study demo</title>
+    <!--Google Fonts (IBM PLEX SERIFF & SANS CONDENSED)-->
+
+<!--Font Awesome Icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
+
+<!--Bootstrap NPM Files-->
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+rel="stylesheet">
+<link href="./css/overrides.css" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="head-background">
+                <header-component></header-component>
+                <div class="progress-container">
+                        <div class="progress-bar" id="myBar"></div>
+                    </div>
+                </div>
+          <section class="case-study-overview">
+              <div class="container" style="padding-block: 4rem;">
+                      <h1>Beta Registration & Invites</h1>
+                      <p class="lead">Growing a user base through an invitation only experience, sent from a known and trusted community member.</p>
+                      <img src="/images/test-image.webp" class="img-fluid" style="padding-block: 2rem;" role="img" alt="valorant beta buddy landing">
+                  </div>
+              </div>
+          </section>     
+          <hr>
+          <section class="project-problem-statement">
+              <div class="container" style="padding-block: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Problem Statement</h2>
+                  <h2>What gets players hyped to play together?  Shared experience and community!</h2>
+                  <p>To create hype around their launch on Playstation and XBOX, VALORANT wanted to drive engagement through trusted relationships.</p>
+                   <p>Historically, Riot was primarily a PC player audience, and this experience was tied to VALORANT'S launch on console play, and expanding to that player-base.</p> 
+                   <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Value Proposition</span></h3>
+                 <p class="lead">The case theory was playing together with people you know, would: </p>
+                    <ul>
+                        <li>Drive users previously unable to play the game, to get a first time experience together with people they trust, and/or want to with.</li>
+                        <li>Valorant has a strong community, so new users, increases that community/user-base</li>
+                        <li>The ability to play with friends likely means happy users, and an increase in engagement time for all parties involved.</li>
+                        <li>Happy users = user growth and retention.</li>
+                        <li>Increased engagement + happy new and existing users = increased revenue.</li>
+                        <li>Increased revenue = creating new cool experiences for players moving forward!</li>
+                    </ul>
+                    
+                    <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Future Offerings</span></h3>
+                    <ul>
+                    <li>Additionally, our goal was for this to serve as a test case towards future offerings.  </li>
+                     <li>   After VALORANT, we would be supporting the Alpha launch of 2XKO follow a few months later. </li>
+                        <li>The more re-usable and scalable we could make this, the lower the cost and effort might be when launching 2XKO.</li>
+                  </ul>
+                  <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Challenges</span></h3>
+                  <ul>
+                    <li>How can we make the experience consistent across products, given we’ll need to adhere to guidance and requirements from external platform partners? </li>
+                <li>What does the process looks like from initial sign up, through an invited friend obtaining access? </li>
+                <li>How do we inform users about what they are signing up for?  Does that model change for a new game vs an existing one with an established brand and user base?</li>
+            <li>What's the best way to minimize friction, getting players invites, and quickly into game?</li>    
+            <li>Is there a scalable process that creates continuity of experience across games, while allowing game teams to customize their own processes?</li>
+            </ul>   
+           
+              </div>         
+          </section>
+          <hr>
+          <section class="project-audience">
+              <div class="container" style="padding-block: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Audience</h2>
+                  <h2 class="display-4">Who are we designing for?</h2>
+                  <div class="row">
+                    <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Primary Audience</span></h3>
+                      <div class="col-md-6" style="padding-top: 1rem;"> 
+                 <h4 class="display-6">Game Teams</h4>
+                 <ul>
+                    <li>VALORANT</li>
+                 </ul>
+                      </div>
+                      <div class="col-md-6" style="padding-top: 1rem;">
+               <h4 class="display-6">Players</h4>
+                  <ul>
+                    <li>Current Players who also have an XBOX and/or Playstation account</li>
+                    <li>New players with an XBOX and/or Playstation account</li>
+                    <li>Players with an XBOX and/or Playstation account invited by a registered friend.</li>
+                </ul>
+            </div>
+                <div class="col-md-4" style="padding-top: 1rem;">
+                    <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Secondary Audience</span></h3>
+                 <h4 class="display-6">Future Game Teams</h4>
+                  <ul>
+                   <li>2XKO</li> 
+                  </ul>
+                </div>
+              </div>
+              </div>   
+          </section>
+          <hr>
+          <section class="project-roles">
+              <div class="container" style="padding-block: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Project Roles</h2>
+                  <h2 class="display-4">Who was involved in getting this to the finish line?</h2>
+                  <div class="row" style="padding-block: 1rem;">
+                      <div class="col-md-6">
+                        <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Cross Team Collaboration</span></h3>
+                          <ul>
+                              <li>Program Manager</li>
+                              <li>Product Managers (Multiple Teams)</li>
+                              <li>Game Team Brand Managers</li>
+                              <li>Design Lead</li>
+                              <li>Visual Design Lead</li>
+                              <li>Epic Captain</li>
+                              <li>QA Leads (Multiple Teams)</li>
+                             <li>Copy Writers (Multiple Teams)</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6";>
+                        <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Stakeholders</span></h3>
+                          <ul>
+                              <li>VALORANT</li>
+                              <li>Player Platform Teams (SDK, Marketing, InfoSec etc) </li>
+                              <li>External Console Partners (XBOX + Playstation)</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <hr>
+          <section class="project-scope">
+              <div class="container" style="padding-block: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Project scope</h2>
+                  <h2 class="display-4">What do we need for a frictionless and trusted experience, providing key information to users?</h2>
+                  <ol style="padding-block: 1rem;">
+                      <li>Work across teams to create a scalable web solution that aligns with game team needs and partner guidelines.</li>    
+                      <li>Create a dual registration and marketing page, and simplify inviting friends.</li>
+                 <li>Deliverables including UX website and email mocks with annotations, E2E user flows, and functional flows, User copy and SOT repo.</li>
+                 <li>Flows need to account for current and new players, as well as established and new linking of console to Riot accounts.</li>
+                    </ol>
+                    <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Pivot - Granting Access</span></h3>
+                  <p>Shortly before UX lock, we got feedback from one of our partners changing how we could grant users access to the game.</p>  
+                    <p>This forced an emergency pivot to reassess our flows, though fortunately we were able to still deliver the feature on schedule.</p>
+                </div>
+                </section>
+                <hr>
+          <section class="project-process-overview">
+              <div class="container" style="padding-block: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Approaching The Work</h2>
+                  <h2 class="display-4">How do we make the traditional beta experience unique and branded for a live game with a passionate community? </h2>
+                      <p>This was a fast moving process with a live game, establishing its first footprint on consoles.  </p>
+                        <p>Before engaging with VALORANT we researched what is typically part of the marketing/sign up page of other of beta experiences. </p>
+                        <p> There were also cross-discipline conversations around “how” to minimize friction within the sign up / acceptance / invitation processes.</p>
+                        <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Starting Point</span></h3>
+                 <h4 class="display-6" style="padding-top: 1rem;">Simple flow, marketing the game</h4>
+                  <p>We'd create a marketing page with game specific content that doubled as the start of the sign up flow.  </p>
+                    <p>Find ways to reuse elements and processes for both the initial registration and invitation acceptance flows, reducing potential unnecessary extra work.</p>
+            <div class="project-todo">
+            <h4 class="display-6" style="padding-top: 1rem;">Key Event Details</h4>
+              <p>We knew the core pieces of information users needed front and center were how to register, key dates, and how you could play. </p>
+           <h4 class="display-6" style="padding-top: 1rem;">Simple Sign In</h4>
+            <ul class="list-bullet">
+     <li>To reduce as much friction as possible for users, the plan was completing any pre-requisites within the initial registration flow, using our systems to validate user access.</li>
+     <li>This way when invitations were sent out users could just download the game, sign in, and start playing. </li>
+            </ul>
+               
+         <h4 class="display-6" style="padding-top: 1rem;">Invitation Flexbility</h4>
+          <ul class="list-bullet">
+    <li>Users granted access after registration were presented with a code to send to friends, so they could play together.  </li>
+        <li>These were essentially pre-auth codes, allowing the friend to use the code to login or sign up for an account, with immediate access to download the build. To simplify sharing, we emailed the code to the registered user, who could send the code via slack, email, text, to whomever they wanted.</li>
+          </ul>
+         <h4 class="display-6" style="padding-top: 1rem;">New players don't feel left out</h4>
+          <ul class="list-bullet">
+            <li>Part of the goal was to expand the existing user base. 
+            <li>We worked with the game team to provide relevant content on the registration page, for new users could easily learn about the game before playing.</li>
+          </ul>
+         <h4 class="display-6" style="padding-top: 1rem;">Branded Marketing Elements</h4>
+          <ul class="list-bullet">
+    <li>We presented the potential options how we could include their marketing content on the landing page, appealing to new and existing users, including “how to” written tutorials, and “hype videos”.</li>
+          <li>We also created a standalone FAQ information section about this limited experience, as well as general game info.</li>
+          </ul>
+          </div>
+          <hr style="max-width: 80%; margin: 2rem auto;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Designing The Experience</h2>
+                <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Multiple User Situations</span></h3> 
+                  <div class= "row">
+                      <div class="col-lg-4">
+                         <h4 class="display-6" style="padding-top: 1rem;">User Flows</h4>
+                          <ol class="list-bullet">
+                              <li>Multiple user paths needed to be accounted for, which takes into account the users account status, if they were logged in, invited etc.</li>
+                          <li>E2E flows contextualized how users would interact with each step, including any emails that we send out.</li>
+                        <li>To keep costs down, the plan was to reuse pages where possible (Ex a user trying to redeem an invite that has already been consumed, would be sent to the registration flow.)</li>   
+                        </ol>
+                      </div>
+                      <div class="col-lg-8">
+                          <img src="/images/test-image.webp" class="img-fluid" alt="user flows">
+                      </div>
+                  </div>
+                  <hr style="max-width: 80%; margin: 2rem auto;">
+                  <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Multi-Functional Hub</span></h3>
+                  <div class="row">
+                      <div class="col-lg-4">
+                         <h4 class="display-6" style="padding-top: 1rem;">Registration + Game Information</h4>
+                          <p class="lead">The registration page doubled as a marketing page. reusable for multiple situations with easy access to information about the experience, and general game info.</p>
+                          <ul class="list-number">
+                              <li>Masthead is kept simple and clean, focusing on the priority of registration. </li>
+                              <li>Wanting to reuse the page, this button could double for accepting an invite. This meant content continuity for users, and reduced cost to make changes between user scenarios.</li>
+                         <li>Additional "where" and "when" details easily found just below the header section.</li>
+                         <li>Game marketing content linked out for users to learn about the game and experience.</li>
+                         <li>FAQ info is kept to high level info so the user isn't overwhelmed, and content links out to articles for more detail.</li>
+                            </ul>
+                      </div>
+                      <div class="col-lg-8">
+                          <img src="/images/test-image.webp" class="img-fluid" alt="insert image">
+                      </div>
+                  </div>
+                  <hr style="max-width: 80%; margin: 2rem auto;">
+                  <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Accepting Access</span></h3>
+                  <div class="row">
+                      <div class="col-lg-4">
+                         <h4 class="display-6" style="padding-top: 1rem;">Using our system logic</h4>
+                          <ul>
+                              <li>Once the account is logged in, we could use existing information about the player within their account to guide next steps. </li>
+                          <li>Users could only play on once console and codes were platform specific.</li>
+                          <li>If a they selected a console with a pre-connected account, they were sent to the success screen to obtain their access code. </li>
+                        <li>Without a pre-connected console, they would be sent to the flow to connect that account, before returning to the success screen.</li>
+                    </ul>
+                        </div>
+                          <div class="col-lg-8">
+                              <img src="/images/test-image.webp" class="img-fluid" alt="invite acceptance">
+                          </div>
+                      </div>
+                      <hr style="max-width: 80%; margin: 2rem auto;">
+                      <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Inviting Friends</span></h3>
+                      <div class="row">
+                       <div class="col-lg-4">
+                       <h4 class="display-6" style="padding-top: 1rem;">Security = potential scope creep</h4>
+                        <ul class="list-bullet">
+                            <li>To deter bad actors, and further streamline things, I explored the option of sending invites through account management.</li>
+                                <li>The primary upside was improving our ability to troubleshoot invitation issues, making things easier for users and player support.</li>
+                                <li>However that would have greatly increased the project scope, so for MVP we included a sharable code on the invitation acceptance success screen.</li>
+                        </ul>
+                        
+                       </div>
+                       <div class="col-lg-8">
+                        <img src="/images/test-image.webp" class="img-fluid" alt="invite success screen">
+                       </div>
+                      </div>
+                      
+                      <hr style="max-width: 80%; margin: 2rem auto;">
+                     <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Invited By A Friend</span></h3>
+                  <p>Wanting to reduce the potential for bad actor fraud, I explored the option of Riot controlling the inviting of players.  However, we lacked the existing capability to send invitations within system, and to achieve that would have greatly increased the project scope.</p> 
+                 <p>So we landed on a simple solution to include a sharable code on the invitation acceptance success screen,trusting users wouldn't abuse the system.</p>
+                  <div class="row">
+                      <div class="col-lg-4">
+                         <h4 class="display-6" style="padding-top: 1rem;">Accepting An Invite</h4>
+                          <ul class="list-bullet">
+                              <li>Invited friends would follow the same flow logic as the initial registration, but would bypass any waiting period to access the game.</li>
+                          <li>This would reduce completion timeline by reducing the need to create unnecessary standalone pages.</li>
+                            </ul>
+                      </div>
+                      <div class="col-lg-8">
+                          <img src="/images/test-image.webp" class="img-fluid" alt="accept invite user flow">
+                      </div>
+                  </div>
+                  <hr style="max-width: 80%; margin: 2rem auto;">
+                  <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Handoff Collaboration</span></h3>
+                  <p class="lead">Work was being handed off across teams and disciplines, so proper organization of assets was key.</p>
+                  <ul class="list-bullet">
+                    <li>UX designs were handed off to VD, which included individual screens and complete flows with annotations, and links to the project brief.</li>
+                    <li>I helped organize the collaboration between our initiative copy writer and VALORANT'S, including who was responsible for what content.</li>  
+                    <li>To create a clear source of truth for copy and the latest mocks, I spun up a new content repo in Notion, linked to it from Figma and added the latest content in both locations.</li>
+                    <li>Using notion provided a clear historical ledger of update work, in a universal and accessible location for all disciplines. </li>
+            </ul>      
+                </section>
+                <hr>
+          <section class="project-overview-outcomes">
+                      <!--Outcomes & Results-->
+                      <div class="container" style="padding-block: 2rem;">
+                        <h2 style="font-size: 1rem; text-transform: uppercase; color: blue;">Final Thoughts</h2>
+                          <h2 class="display-4">Broad project results</h2>
+                          <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Growth Achieved</span></h3>
+                          <p class="lead">Direct increases for user base, time in game, and revenue.</p>
+                                 <ul class="list-square">
+                                  <li>The project launched on time and was a huge success, and no surprise, players invited by a friend spent more time playing the game together.  </li>
+                                  <li>It can be challenging to sync up and play together, and this method provided a method to connect in game, and momentum or an incentive to stay in game.</li>
+                                 <li>Despite the emergency pivot, we were able to quickly align on a solution that could be implemented without changing timelines.  The intended path would have simplified the process and reduced a little friction, but the bare bones goals of the MVP were ultimately achieved.</li>  
+                                </ul>
+                                <hr style="max-width: 80%; margin: 2rem auto;">
+                                <h2 class="display-4">What would I have done differently?</h2>
+                                <h3>Secure Invites</h3>
+                                <p class="lead">Increased trust around invite consumption</p>
+                                <ul class="list-bullet">
+                                    <li>There was a concern bad actors could try to sell an invite on social media, and getting multiple people to pay for a code that has already redeemed. </li>
+                                    <li>This would create negative user sentiment, and player's would direct their frustration towards the brand, particularly as Player Support didn't have an easy way to reverse engineer a fix. </li>
+                                    <li>Running the invite process run through our systems to increase security, was something I explored and would have preferred.</li>
+                                    <li>After some discussions we decided a trade-off was required to keep the timeline in tact and not increase scope.</li>
+                                    <li>To get the MVP out the door, we would present users a sharable code on the success screen, and revisit invitation by Account Management down the line.</li>
+                                </ul>
+                                <hr style="max-width: 80%; margin: 2rem auto;">
+                                <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Entitlement Vs Keys</span></h3>
+                               <h4 class="display-6" style="padding-top: 1rem;">Innovate to improve our users experience</h4>
+                                <p class="lead">Our initial aligned on plan was to leverage our entitlements systems, to validate user access within the registration flow.</p>
+                                <ul class="list-bullet">
+                                    <li>Connecting your console and Riot accounts was required to play, and we wanted to include this check in the registration process. By controlling access, we could instantly see connected accounts.</li>
+                                    <li>This would also reduce user friction by letting users with pre-connected accounts skip that step, while prompting others to finish the setup early so they could jump into the game when invited.</li>
+                                </ul>
+                               <h4 class="display-6" style="padding-top: 1rem;">Hang on a second - we can't do that</h4>
+                                <p>Just before locking UX, we got feedback from partners and stakeholders forcing us to pivot to unique-access keys entered into the platform store, to download the game.</p> 
+                                 <p class="lead"> This meant revising our flows to reflect the updated requirements, while adding as little friction as necessary.</p>
+                                <ul class="list-number">
+                                <li>Connecting your console account became an optional step at the end of the registration flow, or a pre-requisite to obtain a key once invited.</li>
+                                <li>Upon accepting an invitation, a pre-connected account would just need to select that platform, to be sent to the success screen for the specific key.</li>
+                                <li>Requiring beta codes meant we couldn't then grant access upon login, making us reliant on users inputting codes into the store redemption flow to download the build. </li>
+                                <li>Though this might add steps and remove some of our control from the process, it was required by our partners, and though this is how other games operate, we took a shot at improving the experience for our players.</li>
+                                </ul>
+                                <hr style="max-width: 80%; margin: 2rem auto;">
+                                <h3 style="padding-top: 2rem;"><span class="border-start border-primary border-3" style="padding-left: .5rem;">Project Coda</span></h3>
+                                <p>Pivots are inevitably part of the process, but ideally earlier alignment conversations could have helped avoid the change in this project. Our initial plan would have been good for users, but assessing it’s viability earlier on could have resulted in more time to assess alternate paths.</p>
+                                <p>Future scalability was a good thought, and with more time and information, we might have created a stronger future proof version.  How that played out for 2XKO is a different, future story to col-lg-4.</p>
+                                <p>Despite twists and turns, we were successful in delivering the feature in the required timeline, while creating a huge value for the game team.</p>
+                      </div>  
+          </section>
+          <section>
+          <div class="container" style="text-align: center; padding-block: 2rem;">
+            <h3 class="to-top"> <a href="#val-beta-header">Return To Top</a></h3>
+          </div>
+        </section>
+    </main>
+    <footer-component>Placeholder</footer-component>
+</body>
+</html>

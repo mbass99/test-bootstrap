@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Index demo</title>
     <!--Google Fonts (IBM PLEX SERIFF & SANS CONDENSED)-->
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,700;1,400&display=swap"
 rel="stylesheet">
@@ -16,7 +16,6 @@ rel="stylesheet">
 
   </head>
   <body>
-	<div class="container">
 		<main>
 			 <div class="head-background">
 			<header-component>Placeholder</header-component>
@@ -24,8 +23,8 @@ rel="stylesheet">
 					<div class="progress-bar" id="myBar"></div>
 				</div>
 			</div>
-			<section class="hero">
-				<div class="hero-wrap">
+			<section class="hero" style="background-color: #dbd7f2;">
+				<div class="container" style="max-width: 34rem; padding-block: 4rem;">
 					<h1 id="introduction"> Hi! I'm <br><span class="colored-name">Matt Bass</span> <br>
 						UX &#38; Product Design </h1>
 					<p>Designing experiences benefiting users and business goals, while cultivating a collaborative environment. </p>
@@ -34,93 +33,36 @@ rel="stylesheet">
 						</span>, being a <span class="text-emphasis"> Native Angelino</span> definitely does! <span
 							style='font: size 20rem;;'>&#128526;</span></p>
 				<div>
-					<ul class="contact-links">
-						<li>
-					<a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span style="color: #1b1b1b;"
-							title="link to email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span></a>
-						</li>
-						<li><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
-						<span style="color: #1b1b1b;">
-							<i class="fa-brands fa-linkedin" aria-hidden="true"></i></span></a>
-						</li>
-						<li> <a href="https://twitter.com/TheMattBass" class="twitter" target="_blank"><span
-							style="color: #1b1b1b;"><i class="fa-brands fa-square-twitter" aria-hidden="true"></i></span></a>
-						</li>
-						<li> <a href="https://bsky.app/profile/themattbass.bsky.social" class="bluesky" target="_blank"><span
-							style="color: #1b1b1b;"><i class= "fa-brands fa-square-bluesky" aria-hidden="true"></i></span></a>
-							</li>
-							</ul>
-						</div>
+					<div class="row row-cols-4" style="padding-block: 1rem; max-width: 24rem;">
+							<div class="col">
+						<a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span style="color: #1b1b1b;"
+								title="link to email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span></a>
+							</div>
+							<div class="col"><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
+							<span style="color: #1b1b1b;">
+								<i class="fa-brands fa-linkedin" aria-hidden="true"></i></span></a>
+							</div>
+							<div class="col"> <a href="https://twitter.com/TheMattBass" class="twitter" target="_blank"><span
+								style="color: #1b1b1b;"><i class="fa-brands fa-square-twitter" aria-hidden="true"></i></span></a>
+							</div>
+							<div class="col"> <a href="https://bsky.app/profile/themattbass.bsky.social" class="bluesky" target="_blank"><span
+								style="color: #1b1b1b;"><i class= "fa-brands fa-square-bluesky" aria-hidden="true"></i></span></a>
+								</div>
+								
+							</div>
+					
+							</div>
 				</div>
-				
 			</section>
-			<div class="landing-background">
-				<section class="select-ux-projects">
-					<h2 class="recent-work">Select Work</h2>
-					<section class="portal-design-system-landing-grid">
-						<div class="project-landing-image">
+			<section class="case-studies">
+			<div class="container">
+				<h2 style="padding-top: 4rem; text-align: center;">Select Work</h2>
+					<div class="row align-items-center" style="padding-block: 3rem;">
+						<div class="col-lg-6 py-4">
 							<!-- insert as bg image -->
-							<span class="background-image" role="img" aria-label="portal design system image"></span>
+							<img src="./images/test-image.webp" class="img-fluid">
 						</div>
-						<div class="project-landing-text">
-							<h3>Portal Design System</h3>
-							<h4>Riot Games</h4>
-							<h4>Developer Platform</h4>
-							<p>Enterprise design system, focused on internal tooling for game teams.</p>
-							<div class="project-link">
-								<p><a href="rg-portal-design-system.html"><button class="button"
-											alt="link to portal design system case study">View
-											Project</button></a></p> 
-							</div>
-							
-						</div>
-					</section>
-					<section class="valorant-beta-landing-grid">
-						<div class="project-landing-image">
-							<!-- insert as bg image -->
-							<span class="background-image" role="img" aria-label="beta experience screens"></span>
-						</div>
-						<div class="project-landing-text">
-							<h3>Beta Registration & Invites</h3>
-							<h4>Riot Games</h4>
-							<h4>Player Experiences</h4>
-							<p>Registration and invitation system for VALORANT's console launch, allowing users a chance at playing a unique experience together with friends.</p>
-							<div class="project-link">
-								<p><a href="rg-valorant-beta.html"><button class="button"
-											alt="link to portal design system case study">View
-											Project</button></a></p>
-							</div>
-							
-						</div>
-					</section>
-					<!--PORTAL PLACEHOLDER-->
-					<!--Comment Out Portal Till It's Ready
-					<section class="platform-portal-landing-grid">
-						<div class="project-landing-image">
-						
-							<span class="background-image" role="img" aria-label="riot platform portal screens"></span>
-						</div>
-						<div class="project-landing-text">
-							<h3>Game Management Tooling</h3>
-							<h4>Riot Games</h4>
-							<h4>Developer Platform</h4>
-							<p>Enterprise software tooling MVP, for Riot Game Teams, and internal partner teams.</p>
-							<div class="project-link">
-									<p>Case Study In Progress</p>
-							
-								<p><a href="../Case Studies/rg-developer-portal.html"><button class="button"
-											alt="link to portal design system case study">View
-											Project</button></a></p> 
-							</div>
-							
-						</div> -->
-					</section>
-					<section class="cms-landing-grid">
-						<div class="project-landing-image">
-							<!-- insert as bg image -->
-							<span class="background-image" role="img" aria-label="cinema makeup school screens"></span>
-						</div>
-						<div class="project-landing-text">
+						<div class="col-lg-6">
 							<h3>Cinema Makeup School</h3>
 							<p>Re-imagining how the leading cinema makeup and special effects school sells
 								their program, and creates a stronger connection with prospective students.</p>
@@ -130,39 +72,41 @@ rel="stylesheet">
 								<li>User &amp; Market Research</li>
 								<li>Information Architecture</li>
 							</ul>
-							<div class="project-link">
-								<p><a href="cms-redesign.html"><button class="button"
-											alt="link to cinema makeup case study">View
-											Project</button></a></p></a></p>
+							<div class="project-link"><a href="cms-redesign.html">
+								<button type="button" class="btn btn-primary" role="link">View
+									Project</button></a>
 							</div>
 						</div>
-					</section>
+					</div>
+					<hr style="color: #1b1b1b;">
 				</section>
+			</div>
+		</section>
 				<section class="about-me">
-					<div class="individual-landing-box">
-						<div class="text-and-image-box">
-						<div class="about-me-text">
+					<div class="container">
+						<div class="row align-items-center" style="padding-block: 3rem;">
+						<div class="col-md-6">
 							<h2>About Me</h2>
 							<h3>Storyteller | Collaborator</h3>
 							<p>I'm not Liam Neeson, but have a very particular set of skills that make me an asset to work with. A designer with a story development background, and collaborative mindset building ideas into products people engage with.</p>
 							<h3>Music | TV | Movies | Sports </h3>
 							<p>I have an eclectic range of interests. You can find me listening to Rage Against The Machine or Miles Davis. Watching “The Wire” or “Star Wars”. Cheering the World Cup or College Football!</p>
 						</div>
-						<div class="image-group">
-							<img src="/Images/bunk-and-i.jpg" id="bunk" alt="bunk and I">
+						<div class="col-md-6">
+							<img src="./images/test-image.webp" class="img-thumbnail, rounded-circle" style="max-width: 30rem;"  alt="bunk and I">
 						</div>
 						</div>
-						</div>
+					</div>
 				</section>
-				<section class="hand-coding">
+				<section class="container">
+					<div class="row" style="text-align: center;">
 					<p class="hand-code">Hand Coded by Matt Bass - &copy; 2017<script>
 							new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());
 						</script>
 					</p>
-
 					<h3 class="to-top"> <a href="#introduction">Return To Top</a></h3>
+				</div>
 				</section>
-			</div>
 		</main>
 		<!-- FOOTER -->
 		   <footer-component>Placeholder</footer-component>
@@ -179,6 +123,5 @@ rel="stylesheet">
 					document.getElementById("myBar").style.width = scrolled + "%";
 				}
 			</script>
-	</div>
 </body>
 </html>
